@@ -1,0 +1,22 @@
+{
+  "name": "lab-2",
+  "version": "1.0.0",
+  "description": "laboratorio 2 de DCA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zharbee/Lab-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zharbee/Lab-2/issues"
+  },
+  "homepage": "https://github.com/zharbee/Lab-2#readme",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
