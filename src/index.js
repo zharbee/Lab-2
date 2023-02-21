@@ -9,14 +9,12 @@ class AppContainer extends HTMLElement{
     }
 
     render(){
-        const section= document.createElement('section');
-        const title= document.createElement('h2');
-
-        title.textContent='Twitch TV';
-
-        section.appendChild(title);
-
-        this.shadowRoot.appendChild(section)
+        this.shadowRoot.innerHTML=`
+        <link rel="stylesheet" href="./index.css">
+        <div id="title">
+           <img id="ico" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Opera_GX_Icon.svg/2048px-Opera_GX_Icon.svg.png">
+           <input id="search" type="text" placeholder="Buscar en la web" size=50>
+        </div>`;
     }
 }
 

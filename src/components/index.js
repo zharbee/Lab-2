@@ -1,1 +1,1 @@
-export {default as vid} from "./vid/vid.js";
+export {default as vid} from "./wind/wind.js";

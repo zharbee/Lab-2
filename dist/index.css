@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(32, 54, 54);
+}
+
+#title{
+    background-color: blueviolet;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#ico{
+    width: 60px;
+    margin: 25px;
+}
+
+#search{
+    height: 40px;
+    background-color: rgb(32, 54, 54);
+    border: none;
+    border-bottom: 2px solid rgb(216, 46, 89);
+}
