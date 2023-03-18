@@ -1,4 +1,4 @@
-class Windowview extends HTMLElement{
+export default class Windowview extends HTMLElement{
     constructor(){
         super();
         this.attachShadow({mode: 'open'})
@@ -9,7 +9,7 @@ class Windowview extends HTMLElement{
     }
 
     render(){
-        this.shadowRoot.innerHTML=``;
+        if(this.shadowRoot){this.shadowRoot.innerHTML=``;
         for(let i=1;i<=13;i++){
             this.shadowRoot.innerHTML+=`
             <link rel="stylesheet" href="./index.css">
@@ -27,7 +27,7 @@ class Windowview extends HTMLElement{
             <img id="tumb" src="https://wallpaper.dog/large/73840.jpg">
             
             </div>
-            `
+            `}
     }
 }
 

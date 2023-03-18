@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "serve",
-    "build": "webpack --watch"
+    "build": "webpack --watch --mode=production"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
   "homepage": "https://github.com/zharbee/Lab-2#readme",
   "devDependencies": {
     "serve": "^14.2.0",
-    "webpack": "^5.75.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1"
   }
 }
